@@ -1,0 +1,3 @@
+﻿@inject DevRock01.Services.ICalculator calc
+
+@Component.Invoke("Header", 1, $"Hello MVC {calc.Add(1, 2)}")
